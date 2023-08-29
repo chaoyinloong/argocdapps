@@ -4,4 +4,4 @@ metadata:
   name: nginx
 spec:
   externalIPs:
-    - 10.62.25.246
+    - 139.144.127.132
