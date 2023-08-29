@@ -6,9 +6,9 @@ metadata:
   name: linode-production
 spec:
   destination:
-    server: https://a9821dc8-35ae-4fa9-a721-be8bf6f46ffd.ap-south-2.linodelke.net:443
+    server: linode-production
     namespace: default
-  project: demo-parent
+  project: default
   source:
     path: deploy/overlays/cluster1
     repoURL: https://github.com/chaoyinloong/argocdapps.git
