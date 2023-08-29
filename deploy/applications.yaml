@@ -8,9 +8,9 @@ spec:
   destination:
     server: linode-production
     namespace: default
-  project: kubecon-demo
+  project: demo-parent
   source:
     path: deploy/overlays/cluster1
-    repoURL: https://github.com/qingkunl/argocd-app-of-apps-demo.git
+    repoURL: https://github.com/chaoyinloong/argocdapps.git
     targetRevision: HEAD
 ---
