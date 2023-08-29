@@ -3,7 +3,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: demo-cluster1
+  name: linode-production
 spec:
   destination:
     server: https://a9821dc8-35ae-4fa9-a721-be8bf6f46ffd.ap-south-2.linodelke.net:443
